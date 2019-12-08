@@ -55,6 +55,8 @@ You will be prompted on whether you or the dealer has won.
 
 CLICK THE LINK BELOW TO PLAY:
 
+[a link](cojbr.github.io)
+
 ## Next Steps 
 
 Updates to the game coming in v1.1, scheduled to release later this year. The release of v1.0 was to build a working game before adding further functionality. Planned functionality for v1.1 includes:
