@@ -145,6 +145,7 @@ class Game {
     reset() {
         this.startGame()
         this.gameStatus.innerHTML = '<p></p>'
+        this.startGame()
     }
 }
 

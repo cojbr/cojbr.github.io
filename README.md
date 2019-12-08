@@ -7,7 +7,7 @@ Welcome to my Blackjack game! This is my first stab at a true card game. It's no
 This is solely compiled using JavaScript, CSS and HTML. I tried to create this without using jQuery, to hone my JavaScript skills.
 
 
-### Let's Play!
+## Let's Play!
 
 It's a very quick and simple playthrough, but some of the best things in life are the simple things. I hope you enjoy!
 
@@ -55,7 +55,7 @@ You will be prompted on whether you or the dealer has won.
 
 CLICK THE LINK BELOW TO PLAY:
 
-#### Next Steps 
+## Next Steps 
 
 Updates to the game coming in v1.1, scheduled to release later this year. The release of v1.0 was to build a working game before adding further functionality. Planned functionality for v1.1 includes:
 
@@ -66,7 +66,7 @@ Updates to the game coming in v1.1, scheduled to release later this year. The re
 - Dealer will stand after placing score of 17.
 
 
-#### That's all, folks!
+## That's all, folks!
 
 Thank you for playing, reading, and please feel free to fork the game and push me any improvements you think would make this game awesome!!
 
