@@ -1,0 +1,215 @@
+body {
+    background-color: black;
+}
+
+
+/* FULL APP CONTAINER */
+
+#app-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans KR";
+    border: black;
+}
+
+
+
+/* SIDE PANEL */
+
+.side-panel {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: darkgreen;
+    border: 1px solid black;
+}
+
+#header-container {
+    display: grid;
+    width: 900px;
+}
+
+#reset-button {
+    background-color: red;
+    color: white;
+    width: 500px;
+}
+
+#reset-button:hover {
+    background-color: orange;
+    font-weight: 900;
+}
+
+#start-button {
+    background-color: limegreen;
+    color: white;
+    font-weight: 500;
+}
+
+#start-button:hover {
+    background-color: lime;
+    font-weight: 900;
+}
+
+#start-button-area {
+    display: grid;
+    width: 297px;
+    text-align: center;
+}
+
+#header-title {
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    width: 503px;
+    padding: 15px 0;
+}
+
+#rules {
+    display: grid;
+    grid-column-start: 9;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width: 300px;
+    font-size: 9px;
+    background-color: darkolivegreen;
+    color: white;
+    text-align: right;
+    padding: 15px 0;
+}
+
+
+
+/* GAME  */
+
+#game-container {
+    display: flex;
+    width: 1100px;
+    background-color: rgb(55, 26, 0);
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+/* LEFT PANEL */
+
+#left-panel {
+    border-radius: 0 0 0 100px;
+    background-image: linear-gradient(to top right, rgb(1, 72, 1) 0%, green 100%);
+}
+
+#button-hit {
+    border-radius: 100px;
+    border-color: black;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+}
+
+#button-hit:hover {
+    background-color: lightsalmon;
+    font-weight: 900;
+}
+
+#button-stand {
+    border-radius: 100px;
+    border-color: black;
+    padding: 25px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#button-stand:hover {
+    background-color: violet;
+    font-weight: 900;
+}
+
+
+
+/* CENTER PANEL */
+
+#center-panel {
+    border: 1px solid black;
+    border-radius: 0 0 20px 20px;
+}
+
+#table {
+    border: 3px solid darkgreen;
+    width: 500px;
+}
+
+#dealers-hand {
+    border: 1px dotted grey;
+    height: 99px;
+    color: white;
+    background-image: url(https://i.imgur.com/8f6N518.png);
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+
+#dealers-score {
+    text-align: center;
+}
+
+#cards-in-play {
+    border: 1px dotted grey;
+    height: 99px;
+}
+
+#players-hand {
+    border: 1px dotted grey;
+    height: 99px;
+    color: white;
+    background-image: url(https://i.imgur.com/XCIZfGZ.png);
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+
+#players-score {
+    text-align: center;
+}
+
+#game-status {
+    height: 100px;
+    color: rgb(230, 230, 240);
+    font-size: 22px;
+    background-color: darkolivegreen;
+    border: black;
+    border-radius: 0 0 20px 20px;
+}
+
+
+
+
+/* RIGHT PANEL */
+
+#right-panel {
+    border-radius: 0 0 100px 0;
+    background-image: linear-gradient(to top left, rgb(1, 72, 1) 0%, green 100%);
+}
+
+#button-plus {
+    border-radius: 100px;
+    border-color: black;
+    padding: 25px;
+    background-color: green;
+    color: white;
+}
+
+#button-minus {
+    border-radius: 100px;
+    border-color: black;
+    padding: 15px;
+    background-color: red;
+    color: white;
+}
+

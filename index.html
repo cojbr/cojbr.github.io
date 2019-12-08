@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script defer src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,500,700&display=swap" rel="stylesheet">
+    <title>B L A C K J A C K</title>
+
+</head>
+<body>
+
+<div class="buffer"></div>
+
+<div id="app-container">
+
+    <header id="header-container">
+        <div id="start-button-area">
+            <button id="reset-button">r e s e t</button>
+            <button id="start-button">S T A R T</button>
+        </div>
+        <div id="header-title">
+                <h1>&#9824; &#9825; Blackjack! &#9826; &#9827;</h1>
+        </div>
+        <div id="rules">
+            <p>HOW TO PLAY:<br/>
+            1. Press START to play.<br/>
+            2. Press HIT to be dealt another card, STAND to stay.<br/>
+            3. Closest player to 21 wins.</p>
+        </div>
+    </header>
+
+
+
+    <div id="game-container">
+        <div class="side-panel" id="left-panel">
+            <button id="button-hit">HIT ME!</button>
+            <button id="button-stand">STAND!</button> 
+        </div>
+        <div id="center-panel">
+            <div id="table">    
+                <div id="dealers-hand">
+                    <h3></h3>
+                </div>
+                <div id="players-hand">
+                    <h3></h3>
+                </div>
+            </div>
+            <div id="game-status">
+                <p></p><br/>
+                    <div id="dealers-score">
+                        <p></p>
+                    </div>
+                    <div id="players-score">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        <div class="side-panel" id="right-panel">
+            <button id="button-plus">+5</button>
+            <button id="button-minus">-5</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
