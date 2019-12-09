@@ -55,7 +55,7 @@ You will be prompted on whether you or the dealer has won.
 
 CLICK THE LINK BELOW TO PLAY:
 
-[a link](cojbr.github.io)
+[BlackJack v1.0](https://cojbr.github.io/)
 
 ## Next Steps 
 
